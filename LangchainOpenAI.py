@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-eYH3few3jl9kcLUu7-MNDpsvjyAH9UeaNK2XweJY
 # Step 1: Fetch Tickets 
 
 # Read the incident CSV
-df = pd.read_csv("Sample_incidents.csv")
+df = pd.read_csv("")
 
 # Optionally filter by group
 your_group = "SupportGroup-XYZ"
