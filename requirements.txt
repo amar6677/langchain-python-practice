@@ -11,3 +11,4 @@ langchain
 openai
 langchain_community
 python-dotenv
+install langchain-openai
