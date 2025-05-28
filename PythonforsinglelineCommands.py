@@ -1,5 +1,0 @@
-#setting up the Open API key as environment variable
-import os
-#os.environ["OpenAI"]='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'
-
-print(os.getenv('OpenAI'))

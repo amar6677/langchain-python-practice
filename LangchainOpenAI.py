@@ -4,7 +4,10 @@ import pandas as pd
 from langchain.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
+import openai
 from dotenv import load_dotenv
+from warnings import filterwarnings
+filterwarnings('ignore')
 
 
 import os
@@ -12,21 +15,27 @@ import os
 load_dotenv()
 key=os.getenv("OpenAIKey")
 print(f"printing the open AI key \n {key}")
-# Step 1: Fetch Tickets 
-#reading the incident CSV file
-# Read the incident CSV
-df = pd.read_csv("C:\LangChainPractice\langchain-python-practice\sample_incidents.csv")
-print(df.head())
+
 
 #connecting witht he open AI
 
-# Step 2: Setup LangChain LLM
+# Step 1: Setup LangChain LLM
 os.environ["OPENAI_API_KEY"]=key
-llm = ChatOpenAI(model="gpt-4")
-prompt = ChatPromptTemplate.from_template(""" Provide me latest news on Narendra Modi
+openai.api_key=key
+# Send a prompt to the model
+response = openai.ChatCompletion.create(
+    model="gpt-4",  # Or "gpt-3.5-turbo" if you don't have GPT-4 access
+    messages=[
+        {"role": "user", "content": "Tell 5 things about India"}
+    ],
+    max_tokens=300,
+    temperature=0.7
+)
+# Print the response
+print(response)
 
-""")
-
-chain = LLMChain(llm=llm, prompt=prompt)
-print("printing the promt result \n")
-print(chain)
+# Step 2: Fetch Tickets 
+#reading the incident CSV file
+# Read the incident CSV
+df = pd.read_csv("C:\LangChainPractice\langchain-python-practice\sample_incidents.csv")
+#print(df.head())
