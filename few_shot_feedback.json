@@ -1,0 +1,56 @@
+[
+  {
+    "text": "sims login not working.",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "matching"
+  },
+  {
+    "text": "The payment for the invoice is pending.",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "not_matching"
+  },
+  {
+    "text": "Our network was down last night.",
+    "keywords": "SIMS login is not working, cant access sIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "not_matching"
+  },
+  {
+    "text": " doctor is on leave",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "not_matching"
+  },
+  {
+    "text": " minister visinting  newyork",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "not_matching"
+  },
+  {
+    "text": " not able to upload document into SIMS",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "matching"
+  },
+  {
+    "text": " SIMS portal is down",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS",
+    "label": "matching"
+  },
+  {
+    "text": "user cant access SIMS.",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS, The account abc@outlook.com cant access SIMS, User def@gmail.com cant access system in IMC, The Merchant could not access SIMS email - xyz@gmail.com, The Merchant could not login to SIMS, email - xyz@gmail.com",
+    "label": "matching"
+  },
+  {
+    "text": "Not able to login into the SIMS",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS, The account abc@outlook.com cant access SIMS, User def@gmail.com cant access system in IMC, The Merchant could not access SIMS email - xyz@gmail.com, The Merchant could not login to SIMS, email - xyz@gmail.com",
+    "label": "matching"
+  },
+  {
+    "text": "issue while logging into the SIMS.",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS, The account abc@outlook.com cant access SIMS, User def@gmail.com cant access system in IMC, The Merchant could not access SIMS email - xyz@gmail.com, The Merchant could not login to SIMS, email - xyz@gmail.com",
+    "label": "matching"
+  },
+  {
+    "text": "dims login not working.",
+    "keywords": "SIMS login is not working, cant access SIMS, not able to access SIMS, Getting error while logging into the SIMS, The account abc@outlook.com cant access SIMS, User def@gmail.com cant access system in IMC, The Merchant could not access SIMS email - xyz@gmail.com, The Merchant could not login to SIMS, email - xyz@gmail.com",
+    "label": "matching"
+  }]
