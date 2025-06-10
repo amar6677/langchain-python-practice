@@ -1,0 +1,11 @@
+ticket_number,description,assigned_group
+INC001,User unable to login to DisputeApp with email user1@example.com,SupportTeam
+INC002,Request for data export from ReportApp,Analytics
+INC003,DisputeApp access request for user2@example.com,Support
+INC004,DisputeApp throwing 403 error while login with user3@xyz.com,Support
+INC005,Request for VPN access,IT
+INC006,Unable to access DisputeApp from mobile,MobileSupport
+INC007,Password reset needed for DisputeApp for user4@example.com,Helpdesk
+INC008,Report dashboard error,BI Team
+INC009,Login working fine but user can't see DisputeApp features,user-support
+INC010,ServiceNow access needed,user-support

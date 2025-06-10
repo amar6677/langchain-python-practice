@@ -11,4 +11,8 @@ langchain
 openai
 langchain_community
 python-dotenv
-install langchain-openai
+langchain-openai
+langchain_google_genai
+google-cloud-aiplatform
+vertexai
+google.generativeai

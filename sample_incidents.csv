@@ -1,11 +1,3 @@
 ticket_id,description,assigned_group,created_time
 INC001,User is unable to access the finance application.,SupportGroup-XYZ,2025-05-01 08:23:00
-INC002,Request to grant read access to schema sales_db for user john.doe,SupportGroup-XYZ,2025-05-02 09:00:00
-INC003,The printer on floor 3 is not working.,SupportGroup-XYZ,2025-05-02 10:15:00
-INC004,Database backup failed due to space issues.,DBAdminGroup,2025-05-03 07:30:00
-INC005,Please remove access to production database for user jane.doe,SupportGroup-XYZ,2025-05-03 11:45:00
-INC006,Request for elevated access to marketing database by user mark.tan,SupportGroup-XYZ,2025-05-04 13:00:00
-INC007,VPN is not connecting on employee laptop.,ITSupportGroup,2025-05-04 14:20:00
-INC008,Need write access to customer_data table for analytics team.,SupportGroup-XYZ,2025-05-05 09:40:00
-INC009,Website is down since morning.,SupportGroup-XYZ,2025-05-05 11:15:00
-INC010,Revoke user sally.lee’s access from all dev environments.,SupportGroup-XYZ,2025-05-06 10:10:00
+

@@ -1,0 +1,11 @@
+ticket_number,access_issue,email
+INC001,Yes,user1@example.com
+INC002,No,NA
+INC003,Yes,user2@example.com
+INC004,Yes,user3@xyz.com
+INC005,Yes,NA
+INC006,Yes,NA
+INC007,Yes,user4@example.com
+INC008,No,NA
+INC009,Yes,NA
+INC010,Yes,NA
